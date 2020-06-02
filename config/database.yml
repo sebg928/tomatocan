@@ -6,14 +6,14 @@ default: &default
 development:
   <<: *default
   encoding: unicode
-  database: YOUR_DEVELOPMENT_DATABASE_NAME
-  username: YOUR_USERNAME
+  database: sg_dev_database
+  username: sgonzalez
 
 test:
   <<: *default
   encoding: unicode
-  database: YOUR_TEST_DATABASE_NAME
-  username: YOUR_USERNAME
+  database: sg_test_database
+  username: sgonzalez
 
 production:
   <<: *default
